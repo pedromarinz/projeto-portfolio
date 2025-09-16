@@ -71,6 +71,7 @@ section#ficha {
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+  text-align: center;
 }
 
 section#ficha img.foto {
@@ -108,6 +109,11 @@ div#social a {
 
 div#social a:hover {
   color: var(--destaque-inverso);
+}
+
+section#detalhes {
+  grid-column: 2;
+  text-align: center;
 }
 
 article {
